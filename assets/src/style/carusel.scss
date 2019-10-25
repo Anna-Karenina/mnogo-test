@@ -1,0 +1,60 @@
+.caruselwrapper{
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.blockwrapper{
+  display: flex;
+  margin-left: 7.1vw;
+}
+.block{
+min-height: 13.8vw;
+min-width: 26.9vw;
+background-color: #F4F2ED;
+margin-right: 1.3vw;
+margin:  1.3vw;
+transition: ease-in-out .2s;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding-left: 1.4vw;
+}
+.carusel_block_title{
+font-size: $i20i;
+font-weight: 400;
+}
+.carusel_block_par{
+font-size: $i16i;
+color: $lightBlack;
+font-weight: 300;
+}
+
+.switchbutton{
+display: flex;
+margin-left: 8.34vw;
+
+}
+.carusel_button{
+border: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 2.8vw;
+height: 2.8vw;
+background-color: #F4F2ED;
+margin-right: 0.7vw;
+transition: ease-in-out .2s;
+}
+.carusel_button:hover{
+background-color:   #FFD25A;
+outline: none
+}
+.carusel_button:focus{
+background-color:   #FFD25A;
+outline: none
+}
+#nextblockBtn{
+transform: rotate(180deg);
+}

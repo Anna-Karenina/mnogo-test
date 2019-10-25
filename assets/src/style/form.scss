@@ -1,0 +1,59 @@
+.aboutus_form_wrapper{
+display: flex;
+flex-direction: row;
+}
+.aboutus_form_wrapper_about_us{
+text-align: left;
+display: flex;
+flex-direction: column;
+max-width: 26.8vw;
+margin-left: 8.3vw;
+}
+.aboutus_form_wrapper_about_us h3 {
+margin: 0;
+  margin-top: 8.5vw;
+}
+#otherArticle{
+flex-direction: column !important;
+}
+.aboutus_form_wrapper_about_us p {
+  max-width: 26.8vw;
+margin: 0;
+padding: 0;
+padding-bottom: 1.4vw;
+}
+#fistname{
+  margin-top: 9.2vw
+};
+#form{
+margin-bottom: 16.2vw;
+}
+.form-control::placeholder #birthday{
+  font-weight: 300;
+  font-size: $i16i;
+  line-height: 160%;
+  color: $lightBlack
+}
+#phonenotation{
+font-family: Montserrat;
+font-style: regular;
+font-size: $i12i;
+color: #A0A0A0
+}
+.form_button{
+   @include button-reset;
+   border: 0.3px solid #CCCCCC;
+   padding: 1.04vw;
+   color:  #CCCCCC;
+   border-collapse: collapse;
+   outline: none !important;
+}
+.sex{
+padding: 1.04vw 1.64vw;
+}
+#bordernone{
+  border-right: none
+}
+#pressMe{
+  margin-right: 1.45vw
+}

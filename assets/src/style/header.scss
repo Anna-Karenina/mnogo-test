@@ -1,0 +1,53 @@
+.navbar{
+width: 100%;
+max-height: 5.5vw;
+min-height: 5.5vw;
+padding: 0;
+}
+.navbar-collapse{
+flex-grow: 0
+}
+.navbar_backgroundcolor{
+  background-color: $themeYellow;
+}
+#span .eclipse{
+padding: 0;
+margin: 0;
+}
+.eclipse{
+  display: inline-block;
+  border-radius: 50%;
+  width: 1.38vw;
+  height: 1.38vw;
+  margin-right:  0.7vw;
+  background-color: $EllipseRed;
+  &:first-child{
+  margin-left: 8.25vw;
+  }
+}
+.blackEclipse{
+  background-color: $EllipseBlack;
+}
+.navbar-collapse_custom{
+  margin-left: 57.3vw;
+}
+.nav-link{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $i14i;
+  line-height: $i16i;
+  margin-right: 2.777vw;
+  padding: 0 !important;
+}
+
+
+
+@media (min-width: 992px){
+  .navbar-expand-lg {
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      padding: 0;
+  }
+
+}

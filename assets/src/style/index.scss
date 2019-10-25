@@ -1,0 +1,24 @@
+body{
+  width: 100vw;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+footer{
+height: 10vw;
+display: flex;
+justify-content: center;
+}
+.footer_cellendar{
+  width: 11.52vw;
+  height: 10.3vw;
+position: relative;
+bottom: 25vw;
+left: 7vw;
+}
+.footer_photo{
+  width: 13.4vw;
+  height: 12.4vw;
+  position: relative;
+  bottom: 43.5vw;
+  left: 69.5vw;
+}
